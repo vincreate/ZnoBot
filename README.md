@@ -16,14 +16,14 @@ Used libraries:
 
 <b>The following commands are implemented in our software:</b>
 
-- /getQ - получить количество вопросов в БД
-- /sendMessage - Отправить сообщение в группу
-- /addQuestion - Добавить вопрос в БД
+- /getQ - get amount of questions stored in database;
+- /sendMessage - send message in a group;
+- /addQuestion - add a new question in database;
 
-Пример использования команды /addQuestion:
-/addQuestion Test Question *Answer1 *|Answer2 *Answer3 - В БД будет добавлена такая запись
-Вопрос: "Test Question"
-Ответ1: "Answer1"
-Ответ2: "Answer2"
-Ответ2: "Answer2"
-Правильный ответ: Ответ2
+Example: /addQuestion:
+/addQuestion A u here? *|Yes *No *Idk - the question will be added to the database;
+question: "A u here?"
+аnswer1: "Yes"
+аnswer2: "No"
+аnswer3: "Idk"
+Correct answer: аnswer2
