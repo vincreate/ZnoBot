@@ -1,8 +1,8 @@
 # Python Telegram ZnoBot
-We are developing a telegram bot. 
+We are developing a telegram bot.</br> 
 The sources that we are using for
 adding new questions:
- https://zno.osvita.ua/english/.
+https://zno.osvita.ua/english/.</br>
 This software developed for people
 who want to test their skills in
 English based on ukrainian
