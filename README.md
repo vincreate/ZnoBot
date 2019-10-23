@@ -22,8 +22,10 @@ Used libraries:
 
 Example: /addQuestion:
 /addQuestion A u here? *|Yes *No *Idk - the question will be added to the database;
+
 question: "A u here?"
 аnswer1: "Yes"
 аnswer2: "No"
 аnswer3: "Idk"
+
 Correct answer: аnswer2
