@@ -14,7 +14,7 @@ Programming language - Python3
 Used libraries:
 - python-telegram-bot==11.1.0
 
-<b>The following commands are implemented in our software:
+<b>The following commands are implemented in our software:</b>
 
 - /getQ - получить количество вопросов в БД
 - /sendMessage - Отправить сообщение в группу
