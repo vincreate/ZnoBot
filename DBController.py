@@ -1,6 +1,6 @@
 from pprint import pprint
 import os.path
-
+import math
 import pickle
 
 Object = {
@@ -49,4 +49,14 @@ def addQuestion(obj):
 
 	return obj["index"]
 
+def rmQuestion(Question):
+	b = False 
+	data = getQuestion()
+	for x in data:
+		if Question in x['Question'] and math.fabs(len(Question) - len(x['Question'])) < 4:
+			data.remove(x)
+			b = True
 
+	with open("Database/data.asc", "wb") as file:
+		pickle.dump(data, file)
+	return b
