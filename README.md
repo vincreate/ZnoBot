@@ -17,18 +17,18 @@ Used libraries:
 
 <b>The following commands are implemented in our software:</b>
 
-- /getQ - get amount of questions stored in database;
-- /sendMessage - send message in a group;
 - /addQuestion - add a new question in database;
 - /rmQuestion - removes the last question;
-- /getQuestion - give a link to download the database with questions.
+- /getQ - get amount of questions stored in database;
+- /getQuestion - give a link to download the database with questions;
+- /sendMessage - send message in a group;
+- /starttimer 10 - sets a message distribution timer for every 10 seconds (value can be changed);
 
 Example: /addQuestion:
-/addQuestion A u here? *|Yes *No *Idk - the question will be added to the database;
+/addQuestion Do you study English? *|Yes *No - the question will be added to the database;
 
-question: "A u here?"
+question: "Do you study English?"
 аnswer1: "Yes"
 аnswer2: "No"
-аnswer3: "Idk"
 
 Correct answer: аnswer1
