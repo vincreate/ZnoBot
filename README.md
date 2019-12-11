@@ -20,6 +20,8 @@ Used libraries:
 - /getQ - get amount of questions stored in database;
 - /sendMessage - send message in a group;
 - /addQuestion - add a new question in database;
+- /rmQuestion - removes the last question;
+- /getQuestion - give a link to download the database with questions.
 
 Example: /addQuestion:
 /addQuestion A u here? *|Yes *No *Idk - the question will be added to the database;
